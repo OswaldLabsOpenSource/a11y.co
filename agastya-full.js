@@ -107,7 +107,7 @@
 		analytics: function(a, b) {
 			y.devMode = 1;
 			if (y.devMode == 1) {
-				console.log(a + " " + b);
+				//console.log("Event: " + a + " | " + b);
 			} else {
 				y.load("https://www.google-analytics.com/analytics.js", function() {
 					console.log(a + " " + b);
