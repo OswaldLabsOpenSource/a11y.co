@@ -54,7 +54,7 @@
 					<a class="navbar-brand" href="/">
 						<div class="a11y-icon mr-1"><i class="ion ion-ios-body"></i></div>
 						<span style="letter-spacing: 4px">a11y.co</span>
-						<small>by Oswald Foundation</small>
+						<small class="hidden-md-down">by Oswald Foundation</small>
 					</a>
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<div class="navbar-nav ml-auto my-2 my-lg-0">
@@ -62,9 +62,9 @@
 							<!--<a class="nav-link" href="#">Pricing</a>-->
 							<a target="_blank" class="nav-link" href="https://support.a11y.co">Support</a>
 							<a target="_blank" class="nav-link" href="https://agastya.oswald.foundation/login">Login</a>
-							<a class="nav-link lang lang-1 active" href="#">EN <span class="sr-only">(current)</span></a>
-							<a tabindex="0" class="nav-link lang" onclick="agastya.translate('nl');">NL</a>
-							<a tabindex="0" class="nav-link lang" onclick="agastya.translate('de');">DE</a>
+							<a class="nav-link lang lang-1 active hidden-md-down" href="#">EN <span class="sr-only">(current)</span></a>
+							<a tabindex="0" class="nav-link lang hidden-md-down" onclick="agastya.translate('nl');">NL</a>
+							<a tabindex="0" class="nav-link lang hidden-md-down" onclick="agastya.translate('de');">DE</a>
 						</div>
 					</div>
 				</div>
@@ -80,29 +80,29 @@
 		</header>
 
 		<main id="content">
-			<section class="pt-5 pb-5">
+			<section class="pt-md-5 pb-5">
 				<div class="container pt-3 pb-3">
 					<div class="row text-center">
-						<div class="col-md">
+						<div class="col-6 col-md mb-5 mb-md-0">
 							<h3 class="h1 mb-3">1 Billion</h3>
 							<p>differently abled</p>
 						</div>
-						<div class="col-md">
+						<div class="col-6 col-md mb-5 mb-md-0">
 							<h3 class="h1 mb-3">200M</h3>
 							<p>visually impaired</p>
 						</div>
-						<div class="col-md">
+						<div class="col-6 col-md">
 							<h3 class="h1 mb-3">500M</h3>
 							<p>learning disorders</p>
 						</div>
-						<div class="col-md">
+						<div class="col-6 col-md">
 							<h3 class="h1 mb-3">600M</h3>
 							<p>senior citizens</p>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section id="features">
+			<section id="features" data-read-aloud>
 				<div class="grey">
 					<div class="container">
 						<div class="row pt-5 pb-5">
@@ -110,7 +110,7 @@
 								<img class="magnify" alt="" src="images/dyslexia.png" data-magnify-src="images/dyslexia.png">
 							</div>
 							<div class="col-md-5">
-								<h1><i class="ion ion-ios-book-outline"></i></h1>
+								<h1 class="mt-3 mt-md-0"><i class="ion ion-ios-book-outline"></i></h1>
 								<h3 class="h5 mb-3">Dyslexia</h3>
 								<p>Our exclusive dyslexia-friendly mode uses the research verified by the British Dyslexia Association and the W3C for up to 65% easier and faster reading for those with learning disorders.</p>
 								<p>It automatically changes the color schemes and contrast ratios, typography, and removes unnecessary elements.</p>
@@ -129,7 +129,7 @@
 								<p>a11y.co also adds screen reader support to your webpage, right out of the box, plus keyboard shortcuts for navigation and read aloud features.</p>
 								<!--<p><a tabindex="1">Try blind-friendly features<i class="ion ion-ios-arrow-forward ml-2"></i></a></p>-->
 							</div>
-							<div class="col-md-6 push-md-1">
+							<div class="col-md-6 push-md-1 mt-4 mt-md-0">
 								<img class="magnify" alt="" src="images/visualimpairment.png" data-magnify-src="images/visualimpairment.png">
 							</div>
 						</div>
@@ -142,7 +142,7 @@
 								<img class="magnify" alt="" src="images/bluelightfilter.png" data-magnify-src="images/bluelightfilter.png">
 							</div>
 							<div class="col-md-5">
-								<h1><i class="ion ion-ios-cloudy-night-outline"></i></h1>
+								<h1 class="mt-3 mt-md-0"><i class="ion ion-ios-cloudy-night-outline"></i></h1>
 								<h3 class="h5 mb-3">Blue Light Filter</h3>
 								<p>For reading after sunset, our Sepia mode filters out blue light and has a reddish-brown color combination for users.</p>
 								<p>It simulates an adjustment to the color temperature of a user&rsquo;s display to reduce eye strain and disruption of sleep patterns, much like the program f.lux.</p>
@@ -161,7 +161,7 @@
 								<p>Content creators and developers will not have to manually specify the <code>alt</code> attribute for every image, it will be magically added to those that don&rsquo;t.</p>
 								<!--<p><a tabindex="1">Try AutoALT&trade;<i class="ion ion-ios-arrow-forward ml-2"></i></a></p>-->
 							</div>
-							<div class="col-md-6 push-md-1">
+							<div class="col-md-6 push-md-1 mt-4 mt-md-0">
 								<img class="magnify" alt="" src="images/autoalt.png" data-magnify-src="images/autoalt.png">
 							</div>
 						</div>
@@ -174,7 +174,7 @@
 								<img class="magnify" alt="" src="images/agastya.png" data-magnify-src="images/agastya.png">
 							</div>
 							<div class="col-md-5">
-								<h1><i class="ion ion-ios-trending-up-outline"></i></h1>
+								<h1 class="mt-3 mt-md-0"><i class="ion ion-ios-trending-up-outline"></i></h1>
 								<h3 class="h5 mb-3">Advanced Analytics</h3>
 								<p>Get access to raw data and computed analytics about your users&rsquo;s disabilities. Find out what modes are being used by users, and which pages require your attention.</p>
 								<p>Easily integrates with Google Analytics or your third-party tool, and you remain the owner of your data.</p>
@@ -191,9 +191,9 @@
 								<h3 class="h5 mb-3">Multilingual Support</h3>
 								<p>Make your content available to everyone with built-in translation. Using neural machine translation, users will be able to translate your website&rsquo;s content to over 100 languages.</p>
 								<p>You can choose what languages you want to make available or let users decide, using Google&rsquo;s engine across pages.</p>
-								<p><a tabindex="1" onclick="agastya.translate('nl');">Try translation<i class="ion ion-ios-arrow-forward ml-2"></i></a></p>
+								<p><a tabindex="1" onclick="agastya.translate('nl');">Try translation to Dutch<i class="ion ion-ios-arrow-forward ml-2"></i></a></p>
 							</div>
-							<div class="col-md-6 push-md-1">
+							<div class="col-md-6 push-md-1 mt-4 mt-md-0">
 								<img class="magnify" alt="" src="images/translate.png" data-magnify-src="images/translate.png">
 							</div>
 						</div>
@@ -202,18 +202,18 @@
 			</section>
 			<section class="pt-5 pb-5 grey">
 				<div class="container pt-3 pb-3">
-					<div class="row text-center">
-						<div class="col-md-3">
+					<div class="row text-md-center">
+						<div class="col-md-3 mb-4 mb-md-0">
 							<h1 class="mb-3"><i class="ion ion-ios-school-outline"></i></h1>
 							<h3 class="h5 mb-3">Researched</h3>
 							<p>Research verified by the British Dyslexia Association and the World Wide Web Consortium</p>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 mb-4 mb-md-0">
 							<h1 class="mb-3"><i class="ion ion-ios-cloud-outline"></i></h1>
 							<h3 class="h5 mb-3">Up-to-date</h3>
 							<p>Always stay on the latest version of accessibility features with our cloud-based global delivery</p>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 mb-4 mb-md-0">
 							<h1 class="mb-3"><i class="ion ion-ios-lock-outline"></i></h1>
 							<h3 class="h5 mb-3">Secure</h3>
 							<p>Using bank-level TLS encryption, you can be sure that a11y.co will keep your website safe</p>
@@ -267,8 +267,8 @@
 		<footer id="colophon" class="mt-5 pt-5 pb-5 text-center">
 			<p>a11y.co by <strong>Oswald Foundation</strong>, <a href="https://madewithlove.org.in" target="_blank">made with <span style="color: #e74c3c">&hearts;</span> in India</a></p>
 			<nav class="nav justify-content-center">
-				<a target="_blank" class="nav-link" href="https://oswald.foundation">Home</a>
-				<a target="_blank" class="nav-link" href="https://oswald.foundation/about">About</a>
+				<a class="nav-link" href="#masthead">Product</a>
+				<a target="_blank" class="nav-link" href="https://oswald.foundation">Company</a>
 				<a target="_blank" class="nav-link" href="https://oswald.foundation/team">Team</a>
 				<a target="_blank" class="nav-link" href="https://oswald.foundation/contact">Contact</a>
 			</nav>
@@ -277,7 +277,8 @@
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-		<script src="https://a11y.co/agastya.js" async defer></script>
+		<!--<script src="https://a11y.co/agastya.js" async defer></script>-->
+		<script src="file.js"></script>
 		<script src="magnify.js"></script>
 		<script src="default.js"></script>
 		<script>

@@ -20,6 +20,13 @@ h1 { font-family: "proxima_novasemibold", sans-serif }
 .h1, strong, b { font-family: "proxima_nova_rgbold", sans-serif }
 .navbar-light .navbar-toggler { border: 0; }
 
+@media (max-width: 600px) {
+	.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { zoom: 0.75; }
+	h2.h4 { zoom: 0.74; }
+	.btn-hero { padding: 0.75rem 1.25rem !important }
+	h3.h1 { zoom: 0.8; }
+}
+
 @media (min-width: 992px) {
 	.navbar-toggleable-md .navbar-nav .nav-link {
 		padding-right: 1rem;
