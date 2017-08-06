@@ -6,8 +6,8 @@
 		bodyClass: [(document.documentElement || document.body.parentNode).className], // Body class
 		c: -1, // Current element
 		k: 0, // Is speech running?
-		//fileURL: "https://a11y.co/", // Domain root
-		fileURL: "http://192.168.1.5:5757/", // Domain root
+		fileURL: "https://a11y.co/", // Domain root
+		//fileURL: "http://192.168.1.5:5757/", // Domain root
 
 		init: function() {
 			// Load basic CSS
